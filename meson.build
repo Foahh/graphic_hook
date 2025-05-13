@@ -35,16 +35,9 @@ if cc.get_id() != 'msvc'
     )
 endif
 
-if cc.get_id() == 'msvc'
-    add_project_arguments(
-        '/wd4819',
-        language: 'c',
-    )
-endif
+inc = include_directories('.')
 
 dxguid_lib = cc.find_library('dxguid')
-
-inc = include_directories('.')
 capnhook = subproject('capnhook')
 
 subdir('util')
