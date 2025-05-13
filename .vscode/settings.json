@@ -1,4 +1,10 @@
 {
     "C_Cpp.default.compileCommands": "c:\\Repository\\graphic_hook\\src\\builddir/compile_commands.json",
-    "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
+    "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild",
+    "files.associations": {
+        "*.hujson": "jsonc",
+        "windows.h": "c",
+        "nvapidriversettings.h": "c",
+        "nvapi_lite_common.h": "c"
+    }
 }
