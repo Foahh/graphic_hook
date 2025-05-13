@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.hujson": "jsonc",
+        "nvapi_lite_common.h": "c"
+    }
+}
