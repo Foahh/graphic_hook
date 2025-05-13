@@ -1,6 +1,4 @@
 {
-    "files.associations": {
-        "*.hujson": "jsonc",
-        "nvapi_lite_common.h": "c"
-    }
+    "C_Cpp.default.compileCommands": "c:\\Repository\\graphic_hook\\src\\builddir/compile_commands.json",
+    "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
 }
