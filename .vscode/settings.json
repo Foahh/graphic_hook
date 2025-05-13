@@ -5,6 +5,7 @@
         "*.hujson": "jsonc",
         "windows.h": "c",
         "nvapidriversettings.h": "c",
-        "nvapi_lite_common.h": "c"
+        "nvapi_lite_common.h": "c",
+        "nvapi.h": "c"
     }
 }

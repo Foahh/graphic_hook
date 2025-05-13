@@ -18,22 +18,6 @@ add_project_arguments(
 
 cc = meson.get_compiler('c')
 
-if cc.get_id() != 'msvc'
-    add_project_arguments(
-        '-ffunction-sections',
-        '-fdata-sections',
-        '-Wno-unused',
-        language: 'c',
-    )
-
-    add_project_link_arguments(
-        '-Wl,--enable-stdcall-fixup',
-        '-Wl,--exclude-all-symbols',
-        '-Wl,--gc-sections',
-        '-static-libgcc',
-        language: 'c',
-    )
-endif
 
 inc = include_directories('.')
 

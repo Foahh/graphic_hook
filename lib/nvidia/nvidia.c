@@ -5,9 +5,8 @@
 #include <string.h>
 #include <windows.h>
 
-#include "nvapi/NvApiDriverSettings.h"
 #include "nvapi/nvapi.h"
-#include "nvapi/nvapi_lite_common.h"
+#include "nvapi/NvApiDriverSettings.h"
 #include "util/dprintf.h"
 
 static HMODULE nvapi = NULL;
